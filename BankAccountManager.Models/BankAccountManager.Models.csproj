@@ -42,9 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Expense.cs" />
-    <Compile Include="ExpenseType.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankAccountManager.Interfaces\BankAccountManager.Interfaces.csproj">
+      <Project>{6e4f9fd0-5e8c-4971-b60f-0e5b963e481b}</Project>
+      <Name>BankAccountManager.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
