@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankAccountManager.Logic
+namespace BankAccountManager.Interfaces
 {
-    public class Class1
+    public enum ExpenseType
     {
+        Withdrawal,
+        Deposit
     }
 }
