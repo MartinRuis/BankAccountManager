@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankAccountManager.Models
 {
-    public class Class1
+    public enum ExpenseType
     {
+        Withdrawal,
+        Deposit
     }
 }
